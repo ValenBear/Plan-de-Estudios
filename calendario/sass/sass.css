@@ -1,0 +1,59 @@
+body .header {
+  display: flex;
+  justify-content: center;
+}
+body .main {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+}
+body .main .div-cont {
+  display: grid;
+  grid-template-columns: 130px 260px 260px 130px 130px;
+  border: 1px solid #000;
+  height: 100%;
+}
+body .main .div-cont .div-dia .div-dia-box {
+  border: 1px solid #000;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  padding: 1px 0;
+  height: 30px;
+}
+body .main .div-cont .div-ent .div-ent-box {
+  border: 1px solid #000;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  padding: 1px 0;
+  height: 30px;
+  width: 260px;
+  text-align: center;
+}
+body .main .div-cont .div-sal .div-sal-box {
+  border: 1px solid #000;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  padding: 1px 0;
+  height: 30px;
+  width: 260px;
+  text-align: center;
+}
+body .main .div-cont .div-ext .div-ext-box {
+  border: 1px solid #000;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  padding: 1px 0;
+  height: 30px;
+}
+body .main .div-cont .div-not .div-not-box {
+  border: 1px solid #000;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  padding: 1px 0;
+  height: 30px;
+}/*# sourceMappingURL=sass.css.map */

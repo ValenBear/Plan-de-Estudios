@@ -1,0 +1,30 @@
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 25px;
+}
+main .div-acor {
+  display: flex;
+  flex-wrap: wrap row;
+  margin: 20px;
+}
+main .div-acor h2 {
+  text-align: center;
+}
+main .div-acor .div-ord {
+  width: 1/5.5;
+}
+
+.column-container {
+  display: inline-block;
+  width: 100%;
+}
+.column-container .accordion-item {
+  width: 100%;
+  box-sizing: border-box;
+}
+.column-container .accordion-body {
+  box-sizing: border-box;
+}/*# sourceMappingURL=sass.css.map */

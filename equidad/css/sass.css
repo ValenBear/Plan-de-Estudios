@@ -1,0 +1,73 @@
+/* font-family: 'Teko', sans-serif; */
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body header {
+  margin-top: 80px;
+}
+body header nav {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+body header nav h1 {
+  font-size: 45px;
+  font-family: "Teko", sans-serif;
+  font-weight: 600;
+}
+body main .div-main-box {
+  flex-flow: wrap column;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+body main .div-main-box .div-mont {
+  border: 1px solid #000;
+}
+body main .div-main-box .div-mont .div-mont-tit {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  border: 1px solid #000;
+}
+body main .div-main-box .div-mont .div-mont-tit h3 {
+  font-family: "Teko", sans-serif;
+  font-weight: 400;
+  font-size: 30px;
+  text-align: center;
+}
+body main .div-main-box .div-mont .div-mont-box {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+body main .div-main-box .div-mont .div-mont-box .div-mont-inp {
+  height: 40px;
+}
+body main .div-main-box .div-mont .div-mont-box .div-mont-inp input {
+  height: 35.5px;
+  text-align: center;
+}
+body main .div-main-box .div-mont .div-nomb-box {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+body main .div-main-box .div-mont .div-nomb-box .div-nomb-inp {
+  height: 40px;
+}
+body main .div-main-box .div-mont .div-nomb-box .div-nomb-inp input {
+  height: 35.5px;
+  text-align: center;
+}
+body main .div-main-box .div-sub {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+body main .div-main-box .div-sub .inp-sub {
+  margin-top: 10px;
+  width: 100px;
+}/*# sourceMappingURL=sass.css.map */

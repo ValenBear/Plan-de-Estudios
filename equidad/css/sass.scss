@@ -1,0 +1,75 @@
+@mixin dispfl{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+$brdb: 1px solid #000;
+
+/* font-family: 'Teko', sans-serif; */
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    header{
+        margin-top: 80px;
+        nav{
+            @include dispfl;
+            h1{
+                font-size: 45px;
+                font-family: 'Teko', sans-serif;
+                font-weight: 600;
+            }
+        }
+    }
+    main{
+        .div-main-box{
+            flex-flow: wrap column;
+            @include dispfl;
+            .div-mont{
+                border: 1px solid #000;
+                .div-mont-tit{
+                    @include dispfl;
+                    border: $brdb;
+                    h3{
+                        font-family: 'Teko', sans-serif;
+                        font-weight: 400;
+                        font-size: 30px;
+                        text-align: center;
+                    }
+                }
+                .div-mont-box{
+                    @include dispfl;
+                    .div-mont-inp{
+                        height: 40px;
+                        input{
+                            height: 35.5px;
+                            text-align: center;
+                            }
+                    }
+                }
+                .div-nomb-box{
+                    @include dispfl;
+                    .div-nomb-inp{
+                        height: 40px;
+                        input{
+                            height: 35.5px;
+                            text-align: center;
+                        }
+                    }
+                }
+            }
+            .div-sub{
+                @include dispfl;
+                .inp-sub{
+                    margin-top: 10px;
+                    width: 100px;
+                }
+            }
+        }
+    }
+}
+

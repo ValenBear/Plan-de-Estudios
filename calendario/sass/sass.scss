@@ -1,0 +1,71 @@
+body{
+    .header{
+        display: flex;
+        justify-content: center;
+    }
+    .main{
+        display: flex;
+        align-content: center;
+        justify-content: center;
+        .div-cont{
+            display: grid;
+            grid-template-columns: 130px 260px 260px 130px 130px;
+            border: 1px solid #000;
+            height: 100%;
+            .div-dia{
+                .div-dia-box{
+                    border: 1px solid #000;
+                    display: flex;
+                    align-content: center;
+                    justify-content: center;
+                    padding: 1px 0;
+                    height: 30px;
+                }
+            }
+            .div-ent{
+                .div-ent-box{
+                    border: 1px solid #000;
+                    display: flex;
+                    align-content: center;
+                    justify-content: center;
+                    padding: 1px 0;
+                    height: 30px;
+                    width: 260px;
+                    text-align: center;
+                }
+            }
+            .div-sal{
+                .div-sal-box{
+                    border: 1px solid #000;
+                    display: flex;
+                    align-content: center;
+                    justify-content: center;
+                    padding: 1px 0;
+                    height: 30px;
+                    width: 260px;
+                    text-align: center;
+                }
+            }
+            .div-ext{
+                .div-ext-box{
+                    border: 1px solid #000;
+                    display: flex;
+                    align-content: center;
+                    justify-content: center;
+                    padding: 1px 0;
+                    height: 30px;
+                }
+            }
+            .div-not{
+                .div-not-box{
+                    border: 1px solid #000;
+                    display: flex;
+                    align-content: center;
+                    justify-content: center;
+                    padding: 1px 0;
+                    height: 30px;
+                }
+            }
+        }
+    }
+}
